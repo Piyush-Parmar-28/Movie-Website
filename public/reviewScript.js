@@ -1,5 +1,10 @@
+// Getting the search URL starting from ?
 const queryString = window.location.search;
+
+// Breaking (parsing) the queryString into parts, so that each data can be retreived
 const urlParams = new URLSearchParams(queryString);
+
+// Getting the value of 'id' in the url 
 const movieID = urlParams.get('id')
 
 image_url= 'https://image.tmdb.org/t/p/w500'
