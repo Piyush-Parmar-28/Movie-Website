@@ -11,7 +11,7 @@ const search_URL= 'https://api.themoviedb.org/3/search/movie?api_key='+ api_key 
 
 image_url= 'https://image.tmdb.org/t/p/w500'
 
-/* Calling the gwtMovies function */
+/* Calling the getMovies function */
 getMoviesData(api_url);
 
 /* Creating getMovies() function to get movies data from the API */
